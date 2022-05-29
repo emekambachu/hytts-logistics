@@ -30,5 +30,5 @@ Route::get('/clients', static function () {
 });
 
 Route::get('/reservation', static function () {
-    return view('home');
+    return view('reservation');
 });

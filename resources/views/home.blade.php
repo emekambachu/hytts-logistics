@@ -212,166 +212,9 @@
                         </div>
                     </div>
                 </div>
-
             </div>
-
         </section>
         <!-- ========== End About Section ========== -->
-
-
-        <!-- ========== Service Section ========== -->
-        <section class="services with-line with-number p-relative section-margin dsn-col"
-                 data-dsn-title="Our Services">
-            <div class="container mb-70 d-flex text-center flex-column align-items-center">
-                <h2 class="section-title title-cap">
-                    Our Services
-                </h2>
-            </div>
-
-            <div class="container">
-                <div class=" grid dsn-isotope dsn-col">
-                    <div
-                        class="col-md-6 col-lg-4 dsn-col-lg-3 dsn-col-md-2 dsn-col-sm-1 services-item grid-item dsn-up">
-                        <div class="services-item-inner">
-                            <div class="line line-top"></div>
-                            <div class="line line-bottom"></div>
-                            <div class="line line-left"></div>
-                            <div class="line line-right"></div>
-
-                            <div class="services-content background-section">
-                                <div class="icon">
-                                    <i class="fa fa-plane theme-color fa-4x"></i>
-                                </div>
-                                <div class="service-description">
-                                    <h4 class="title-block mb-15">International and local flight ticketing</h4>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-
-                    <div
-                        class="col-md-6 col-lg-4 dsn-col-lg-3 dsn-col-md-2 dsn-col-sm-1 services-item grid-item dsn-up">
-                        <div class="services-item-inner">
-                            <div class="line line-top"></div>
-                            <div class="line line-bottom"></div>
-                            <div class="line line-left"></div>
-                            <div class="line line-right"></div>
-
-                            <div class="services-content background-section">
-                                <div class="icon">
-                                    <i class="fa fa-plane-arrival fa-4x theme-color"></i>
-                                </div>
-                                <div class="service-description">
-                                    <h4 class="title-block mb-15">Organise corporate, local and international conferences</h4>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-
-                    <div
-                        class="col-md-6 col-lg-4 dsn-col-lg-3 dsn-col-md-2 dsn-col-sm-1 services-item grid-item dsn-up">
-                        <div class="services-item-inner">
-                            <div class="line line-top"></div>
-                            <div class="line line-bottom"></div>
-                            <div class="line line-left"></div>
-                            <div class="line line-right"></div>
-
-                            <div class="services-content background-section">
-                                <div class="icon">
-                                    <i class="fa fa-hotel fa-4x theme-color"></i>
-                                </div>
-                                <div class="service-description">
-                                    <h4 class="title-block mb-15">Hotel Reservations</h4>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-
-                    <div
-                        class="col-md-6 col-lg-4 dsn-col-lg-3 dsn-col-md-2 dsn-col-sm-1 services-item grid-item dsn-up">
-                        <div class="services-item-inner">
-                            <div class="line line-top"></div>
-                            <div class="line line-bottom"></div>
-                            <div class="line line-left"></div>
-                            <div class="line line-right"></div>
-
-                            <div class="services-content background-section">
-                                <div class="icon">
-                                    <i class="fa fa-map-location fa-4x theme-color"></i>
-                                </div>
-                                <div class="service-description">
-                                    <h4 class="title-block mb-15">Travel advice and trip planning</h4>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-
-                    <div
-                        class="col-md-6 col-lg-4 dsn-col-lg-3 dsn-col-md-2 dsn-col-sm-1 services-item grid-item dsn-up">
-                        <div class="services-item-inner">
-                            <div class="line line-top"></div>
-                            <div class="line line-bottom"></div>
-                            <div class="line line-left"></div>
-                            <div class="line line-right"></div>
-
-                            <div class="services-content background-section">
-                                <div class="icon">
-                                    <i class="fa fa-earth-americas fa-4x theme-color"></i>
-                                </div>
-                                <div class="service-description">
-                                    <h4 class="title-block mb-15">Visa Processing</h4>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-
-                    <div
-                        class="col-md-6 col-lg-4 dsn-col-lg-3 dsn-col-md-2 dsn-col-sm-1 services-item grid-item dsn-up">
-                        <div class="services-item-inner">
-                            <div class="line line-top"></div>
-                            <div class="line line-bottom"></div>
-                            <div class="line line-left"></div>
-                            <div class="line line-right"></div>
-
-                            <div class="services-content background-section">
-                                <div class="icon">
-                                    <i class="fa fa-plane-circle-check fa-4x theme-color"></i>
-                                </div>
-                                <div class="service-description">
-                                    <h4 class="title-block mb-15">Flight Charter</h4>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div
-                        class="col-md-6 col-lg-4 dsn-col-lg-3 dsn-col-md-2 dsn-col-sm-1 services-item grid-item dsn-up">
-                        <div class="services-item-inner">
-                            <div class="line line-top"></div>
-                            <div class="line line-bottom"></div>
-                            <div class="line line-left"></div>
-                            <div class="line line-right"></div>
-
-                            <div class="services-content background-section">
-                                <div class="icon">
-                                    <i class="fa fa-car-on fa-4x theme-color"></i>
-                                </div>
-                                <div class="service-description">
-                                    <h4 class="title-block mb-15">Car hire and road travel logistics</h4>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-        <!-- ========== End Service Section ========== -->
 
         <!-- ========== Work Section ========== -->
         <section class="work-section work-no-scale not-filter p-relative dsn-swiper over-hidden v-dark-head"
@@ -390,8 +233,8 @@
                     <div class="work-item  swiper-slide over-hidden">
                         <div class="box-img p-relative over-hidden" data-overlay="6">
                             <img class="cover-bg-img"
-                                 src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                 data-dsn-src="assets/img/project/project1/1.jpg" alt="">
+                                 src="{{ asset('/images/services/1.jpg') }}"
+                                 data-dsn-src="{{ asset('/images/services/1.jpg') }}" alt="">
                         </div>
 
                         <div class="box-content">
@@ -404,8 +247,8 @@
                     <div class="work-item  swiper-slide over-hidden">
                         <div class="box-img p-relative over-hidden" data-overlay="6">
                             <img class="cover-bg-img"
-                                 src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                 data-dsn-src="assets/img/project/project2/1.jpg" alt="">
+                                 src="{{ asset('/images/services/2.jpg') }}"
+                                 data-dsn-src="{{ asset('/images/services/2.jpg') }}" alt="">
                         </div>
 
                         <div class="box-content">
@@ -419,8 +262,8 @@
                     <div class="work-item  swiper-slide over-hidden">
                         <div class="box-img p-relative over-hidden" data-overlay="2">
                             <img class="cover-bg-img"
-                                 src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                 data-dsn-src="assets/img/project/project4/1.jpg" alt="">
+                                 src="{{ asset('/images/services/3.jpg') }}"
+                                 data-dsn-src="{{ asset('/images/services/3.jpg') }}" alt="">
                         </div>
 
                         <div class="box-content">
@@ -434,8 +277,8 @@
                     <div class="work-item  swiper-slide over-hidden">
                         <div class="box-img p-relative over-hidden" data-overlay="6">
                             <img class="cover-bg-img"
-                                 src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                 data-dsn-src="assets/img/project/project3/1.jpg" alt="">
+                                 src="{{ asset('/images/services/4.jpg') }}"
+                                 data-dsn-src="{{ asset('/images/services/4.jpg') }}" alt="">
                         </div>
 
                         <div class="box-content">
@@ -449,8 +292,8 @@
                     <div class="work-item  swiper-slide over-hidden">
                         <div class="box-img p-relative over-hidden" data-overlay="4">
                             <img class="cover-bg-img"
-                                 src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                 data-dsn-src="assets/img/project/project6/1.jpg" alt="">
+                                 src="{{ asset('/images/services/5.jpg') }}"
+                                 data-dsn-src="{{ asset('/images/services/5.jpg') }}" alt="">
                         </div>
 
                         <div class="box-content">
@@ -463,8 +306,8 @@
                     <div class="work-item swiper-slide over-hidden">
                         <div class="box-img p-relative over-hidden" data-overlay="5">
                             <img class="cover-bg-img"
-                                 src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                 data-dsn-src="assets/img/project/project5/1.jpg" alt="">
+                                 src="{{ asset('/images/slider/slider3.jpg') }}"
+                                 data-dsn-src="{{ asset('/images/slider/slider3.jpg') }}" alt="">
                         </div>
 
                         <div class="box-content">
@@ -477,8 +320,8 @@
                     <div class="work-item swiper-slide over-hidden">
                         <div class="box-img p-relative over-hidden" data-overlay="5">
                             <img class="cover-bg-img"
-                                 src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                 data-dsn-src="assets/img/project/project5/1.jpg" alt="">
+                                 src="{{ asset('/images/services/7.jpg') }}"
+                                 data-dsn-src="{{ asset('/images/services/7.jpg') }}" alt="">
                         </div>
 
                         <div class="box-content">
@@ -493,172 +336,6 @@
 
         </section>
         <!-- ========== End Work Section ========== -->
-
-
-        <!-- ========== testimonial Section ========== -->
-    {{--                <section class="testimonials testimonials-half section-margin" data-dsn-title="testimonials">--}}
-    {{--                    <div class="container">--}}
-    {{--                        <div class="testimonials-box box-padding p-relative w-100 background-section">--}}
-    {{--                            <div class="row">--}}
-    {{--                                <div class="col-lg-4 ">--}}
-    {{--                                    <div class="text-left">--}}
-    {{--                                        <h2 class="section-title" data-dsn-grid="move-section"--}}
-    {{--                                            data-dsn-move="-60"--}}
-    {{--                                            data-dsn-duration="100%" data-dsn-opacity="1"--}}
-    {{--                                            data-dsn-responsive="tablet">Feedback from our clients.</h2>--}}
-    {{--                                    </div>--}}
-    {{--                                </div>--}}
-
-    {{--                                <div class="col-lg-8">--}}
-    {{--                                    <div class="testimonials-inner p-relative text-left dsn-swiper "--}}
-    {{--                                         data-dsn-controller=".testimonial-content"--}}
-    {{--                                         data-dsn-option='{"slidesPerView":2,"spaceBetween":50,"centeredSlides":false }'>--}}
-    {{--                                        <div class="testimonial-nav">--}}
-    {{--                                            <div class="testimonial-nav-inner">--}}
-    {{--                                                <div class="swiper-container">--}}
-    {{--                                                    <div class="swiper-wrapper">--}}
-    {{--                                                        <div class="swiper-slide d-flex align-items-center">--}}
-    {{--                                                            <div class="box-img mr-15"--}}
-    {{--                                                                 data-swiper-parallax-scale="0.7">--}}
-    {{--                                                                <img  src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="assets/img/team/2.jpg" alt="">--}}
-    {{--                                                            </div>--}}
-    {{--                                                            <div class="box-text" data-swiper-parallax="30%"--}}
-    {{--                                                                 data-swiper-parallax-opacity="0">--}}
-    {{--                                                                <h4 class="title-block mb-10">HellstarWorks</h4>--}}
-    {{--                                                                <h5 class="sm-title-block">Envato Customer</h5>--}}
-    {{--                                                            </div>--}}
-    {{--                                                        </div>--}}
-    {{--                                                        <div class="swiper-slide d-flex align-items-center">--}}
-    {{--                                                            <div class="box-img mr-15"--}}
-    {{--                                                                 data-swiper-parallax-scale="0.7">--}}
-    {{--                                                                <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="assets/img/team/1.jpg" alt="">--}}
-    {{--                                                            </div>--}}
-    {{--                                                            <div class="box-text" data-swiper-parallax="30%"--}}
-    {{--                                                                 data-swiper-parallax-opacity="0">--}}
-    {{--                                                                <h4 class="title-block mb-10">lindamiku</h4>--}}
-    {{--                                                                <h5 class="sm-title-block">Marketing Manager</h5>--}}
-    {{--                                                            </div>--}}
-    {{--                                                        </div>--}}
-
-    {{--                                                        <div class="swiper-slide d-flex align-items-center">--}}
-    {{--                                                            <div class="box-img mr-15"--}}
-    {{--                                                                 data-swiper-parallax-scale="0.7">--}}
-    {{--                                                                <img src="{{ asset('/assets/img/team/3.jpg') }}"--}}
-    {{--                                                                     data-dsn-src="{{ asset('/assets/img/team/3.jpg') }}" alt="">--}}
-    {{--                                                            </div>--}}
-    {{--                                                            <div class="box-text" data-swiper-parallax="30%"--}}
-    {{--                                                                 data-swiper-parallax-opacity="0">--}}
-    {{--                                                                <h4 class="title-block mb-10">makrandpatne</h4>--}}
-    {{--                                                                <h5 class="sm-title-block">Web Designer</h5>--}}
-    {{--                                                            </div>--}}
-    {{--                                                        </div>--}}
-
-    {{--                                                        <div class="swiper-slide d-flex align-items-center">--}}
-    {{--                                                            <div class="box-img mr-15"--}}
-    {{--                                                                 data-swiper-parallax-scale="0.7">--}}
-    {{--                                                                <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="assets/img/team/3.jpg" alt="">--}}
-    {{--                                                            </div>--}}
-    {{--                                                            <div class="box-text" data-swiper-parallax="30%"--}}
-    {{--                                                                 data-swiper-parallax-opacity="0">--}}
-    {{--                                                                <h4 class="title-block mb-10">MTLGraphic</h4>--}}
-    {{--                                                                <h5 class="sm-title-block">Graphic Design</h5>--}}
-    {{--                                                            </div>--}}
-    {{--                                                        </div>--}}
-
-    {{--                                                    </div>--}}
-    {{--                                                </div>--}}
-
-    {{--                                            </div>--}}
-    {{--                                        </div>--}}
-    {{--                                        <div class="testimonial-content ">--}}
-    {{--                                            <div class="swiper-container">--}}
-    {{--                                                <div class="swiper-wrapper">--}}
-    {{--                                                    <div class="swiper-slide">--}}
-    {{--                                                        <p>"The designer is just amazing! Very good quality and--}}
-    {{--                                                            taste.--}}
-    {{--                                                            This template is incredible beautiful. The overall--}}
-    {{--                                                            impression--}}
-    {{--                                                            is more than good.The support cannot be better. I wish--}}
-    {{--                                                            the--}}
-    {{--                                                            team all success!"</p>--}}
-    {{--                                                    </div>--}}
-
-    {{--                                                    <div class="swiper-slide">--}}
-    {{--                                                        <p>"First of all, I really enjoyed setting this up. What a--}}
-    {{--                                                            great--}}
-    {{--                                                            layout and design. The support is fast and high quality.--}}
-    {{--                                                            They--}}
-    {{--                                                            really made an effort to make sure I got the help I--}}
-    {{--                                                            needed.--}}
-    {{--                                                            keep in mind that it is not only a great design, but--}}
-    {{--                                                            also it--}}
-    {{--                                                            is easy to change it up with little effort. Great Job!"--}}
-    {{--                                                        </p>--}}
-    {{--                                                    </div>--}}
-
-    {{--                                                    <div class="swiper-slide">--}}
-    {{--                                                        <p>"This theme is awesome and the designer is very helpful.--}}
-    {{--                                                            I--}}
-    {{--                                                            had a few questions before purchase. He/She helped me--}}
-    {{--                                                            with--}}
-    {{--                                                            all the doubts. Also, they provide quick support. Thank--}}
-    {{--                                                            you--}}
-    {{--                                                            so much for a beautiful theme"</p>--}}
-    {{--                                                    </div>--}}
-
-    {{--                                                    <div class="swiper-slide">--}}
-    {{--                                                        <p>"Basically im using this theme as a base for my new--}}
-    {{--                                                            website--}}
-    {{--                                                            and i couldnt be happier. Ran into some bumps but the--}}
-    {{--                                                            team--}}
-    {{--                                                            who developed this theme was there to help me with any--}}
-    {{--                                                            problems. Very slick nice ajax portfolio theme"</p>--}}
-    {{--                                                    </div>--}}
-    {{--                                                </div>--}}
-    {{--                                            </div>--}}
-    {{--                                        </div>--}}
-
-    {{--                                        <div--}}
-    {{--                                            class="dsn-pagination mt-30 dsn-container d-flex justify-content-between">--}}
-    {{--                                            <div class="swiper-next">--}}
-    {{--                                                <div class="next-container">--}}
-    {{--                                                    <div class="container-inner">--}}
-    {{--                                                        <div class="triangle"></div>--}}
-    {{--                                                        <svg class="circle" xmlns="http://www.w3.org/2000/svg"--}}
-    {{--                                                             width="24" height="24" viewBox="0 0 24 24">--}}
-    {{--                                                            <g class="circle-wrap" fill="none" stroke-width="1"--}}
-    {{--                                                               stroke-linejoin="round" stroke-miterlimit="10">--}}
-    {{--                                                                <circle cx="12" cy="12" r="10.5"></circle>--}}
-    {{--                                                            </g>--}}
-    {{--                                                        </svg>--}}
-    {{--                                                    </div>--}}
-    {{--                                                </div>--}}
-    {{--                                            </div>--}}
-    {{--                                            <div class="swiper-pagination"></div>--}}
-    {{--                                            <div class="swiper-prev">--}}
-    {{--                                                <div class="prev-container">--}}
-    {{--                                                    <div class="container-inner">--}}
-    {{--                                                        <div class="triangle"></div>--}}
-    {{--                                                        <svg class="circle" xmlns="http://www.w3.org/2000/svg"--}}
-    {{--                                                             viewBox="0 0 24 24">--}}
-    {{--                                                            <g class="circle-wrap" fill="none" stroke-width="1"--}}
-    {{--                                                               stroke-linejoin="round" stroke-miterlimit="10">--}}
-    {{--                                                                <circle cx="12" cy="12" r="10.5"></circle>--}}
-    {{--                                                            </g>--}}
-    {{--                                                        </svg>--}}
-    {{--                                                    </div>--}}
-    {{--                                                </div>--}}
-    {{--                                            </div>--}}
-    {{--                                        </div>--}}
-
-    {{--                                    </div>--}}
-    {{--                                </div>--}}
-    {{--                            </div>--}}
-    {{--                        </div>--}}
-    {{--                    </div>--}}
-    {{--                </section>--}}
-    <!-- ========== End testimonial Section ========== -->
-
 
         <!-- ========== blog Section ========== -->
         <section class="our-blog section-margin p-relative dsn-swiper" data-dsn-animate="section"
@@ -676,16 +353,9 @@
                         <div class="swiper-slide blog-classic-item">
                             <div class=" blog-item p-relative d-flex align-items-center h-100 w-100"
                                  data-swiper-parallax-scale="0.85">
-                                <div class="box-meta">
-                                    <div class="entry-date">
-                                        <span class="author">Dsn Grid</span>
-                                        <a href="#">March , 17th 2020</a>
-                                    </div>
-                                </div>
-
                                 <div class="box-img over-hidden">
-                                    <img class="cover-bg-img" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                         data-dsn-src="assets/img/blog/1.jpg" alt="">
+                                    <img class="cover-bg-img" src="{{ asset('/images/blog/1.jpg') }}"
+                                         data-dsn-src="{{ asset('/images/blog/1.jpg') }}" alt="">
                                 </div>
                                 <div class="box-content p-relative">
 
@@ -693,16 +363,12 @@
                                         <div class="metas">
                                             <span class="mb-5">Lifestyle</span>
                                         </div>
-                                        <h4 class="title-block mb-20 ">
-                                            <a href="#">Extreme Athleticism Is the New Midlife Crisis</a>
+                                        <h4 class="title-block mb-20">
+                                            <a href="#">Visa-free Countries for Nigerian Passport Holders</a>
                                         </h4>
-                                        <p>Whoever said “It’s not about the destination. It’s the journey”
-                                            never
-                                            flew on a long ...</p>
+                                        <p>No Visa, No Hassles, because you too can fly with your international passport, round trip ticket, proof of the reason for travel and sufficient funds. below is the list of countries to visit in this category which some are limited to the duration given upon entrance by the Immigration authorities.</p>
                                         <a href="#" class="link-vist p-relative mt-20">
-
                                             <span class="link-vist-text">Load More</span>
-
                                             <div class="link-vist-arrow">
                                                 <svg viewBox="0 0 80 80">
                                                     <polyline points="19.89 15.25 64.03 15.25 64.03 59.33">
@@ -720,34 +386,21 @@
                         <div class="swiper-slide blog-classic-item">
                             <div class=" blog-item p-relative d-flex align-items-center h-100 w-100"
                                  data-swiper-parallax-scale="0.85">
-                                <div class="box-meta">
-                                    <div class="entry-date">
-                                        <span class="author">Dsn Grid</span>
-                                        <a href="#">March , 17th 2020</a>
-                                    </div>
-                                </div>
-
                                 <div class="box-img over-hidden">
-                                    <img class="cover-bg-img" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                         data-dsn-src="assets/img/blog/2.jpg" alt="">
+                                    <img class="cover-bg-img" src="{{ asset('/images/blog/2.jpg') }}"
+                                         data-dsn-src="{{ asset('/images/blog/2.jpg') }}" alt="">
                                 </div>
                                 <div class="box-content p-relative">
-
                                     <div class="box-content-body">
                                         <div class="metas">
                                             <span class="mb-5">Travel</span>
                                         </div>
                                         <h4 class="title-block mb-20">
-                                            <a href="#">The Day I Lost My Child in Charles de Gaulle
-                                                Airport</a>
+                                            <a href="#">Live Border-less: But in safety and awareness</a>
                                         </h4>
-                                        <p>Whoever said “It’s not about the destination. It’s the journey”
-                                            never
-                                            flew on a long ...</p>
+                                        <p>Traveling could be really fun but there are a lot to look out for from your Visa, Flight ticket, Accommodation, Reason for travel , Departure airport and Arrival Airport</p>
                                         <a href="#" class="link-vist p-relative mt-20">
-
                                             <span class="link-vist-text">Load More</span>
-
                                             <div class="link-vist-arrow">
                                                 <svg viewBox="0 0 80 80">
                                                     <polyline points="19.89 15.25 64.03 15.25 64.03 59.33">
@@ -761,50 +414,6 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="swiper-slide blog-classic-item">
-                            <div class=" blog-item p-relative d-flex align-items-center h-100 w-100"
-                                 data-swiper-parallax-scale="0.85">
-                                <div class="box-meta">
-                                    <div class="entry-date">
-                                        <span class="author">Dsn Grid</span>
-                                        <a href="#">March , 17th 2020</a>
-                                    </div>
-                                </div>
-
-                                <div class="box-img over-hidden">
-                                    <img class="cover-bg-img" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                         data-dsn-src="assets/img/blog/3.jpg" alt="">
-                                </div>
-                                <div class="box-content p-relative">
-
-                                    <div class="box-content-body">
-                                        <div class="metas">
-                                            <span class="mb-5">Health</span>
-                                        </div>
-                                        <h4 class="title-block mb-20">
-                                            <a href="#">Relationships Aren’t Easy, But They’re Worth It</a>
-                                        </h4>
-                                        <p>Whoever said “It’s not about the destination. It’s the journey”
-                                            never
-                                            flew on a long ...</p>
-                                        <a href="#" class="link-vist p-relative mt-20">
-
-                                            <span class="link-vist-text">Load More</span>
-
-                                            <div class="link-vist-arrow">
-                                                <svg viewBox="0 0 80 80">
-                                                    <polyline points="19.89 15.25 64.03 15.25 64.03 59.33">
-                                                    </polyline>
-                                                    <line x1="64.03" y1="15.25" x2="14.03" y2="65.18">
-                                                    </line>
-                                                </svg>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
 
                     </div>
                     <div class="dsn-pagination mt-30 dsn-container d-flex justify-content-between">
