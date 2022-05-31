@@ -17,13 +17,17 @@
 
         <form id="contact-form" class="form" data-toggle="validator"
               @submit.prevent="submitReservation">
-            <div v-if="successMessage !== ''"
-                 class="messages">
+            <div v-if="successMessage !== ''" class="messages text-center"
+                 style="background-color: #8df89b; color: #000;">
                 {{ successMessage }}
             </div>
-            <div v-if="errorMessage !== ''"
-                 class="messages text-center">
+            <div v-if="errorMessage !== ''" class="messages text-center"
+                 style="background-color: #f88d98; color: #000;">
                 {{ errorMessage }}
+                <p v-for="(error, index) in errors"
+                   :key="index">
+                    {{ error.toString() }}
+                </p>
             </div>
             <div v-if="!loading" class="input__wrap controls">
                 <div class="form-group">
@@ -87,6 +91,9 @@
                 </div>
 
             </div>
+            <div v-else class="text-center">
+                <i class="fa fa-spin fa-spinner fa-4x text-white text-center"></i>
+            </div>
         </form>
     </div>
 </template>
@@ -102,7 +109,7 @@
                     to: '',
                     description: '',
                 },
-                loading: true,
+                loading: false,
                 successMessage: '',
                 errorMessage: '',
                 errors: []
@@ -117,9 +124,11 @@
                     .then((response) => {
                         if(response.data.success === true){
                             this.successMessage = response.data.message;
+                            this.loading = false;
                         }else{
                             this.errors = response.data.errors;
                             this.errorMessage = response.data.message;
+                            this.loading = false;
                         }
                         console.log(response.data.errors);
                     }).catch((error) => {

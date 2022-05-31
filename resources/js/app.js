@@ -8,6 +8,7 @@ require('./bootstrap');
 import {
     createApp
 } from 'vue';
+import router from './routes';
 import axios from 'axios';
 import VueAxios from 'vue-axios';
 
@@ -35,5 +36,5 @@ const app = createApp({
         ReservationForm
     }
 }).use(
-    axios, VueAxios
+    router, axios, VueAxios
 ).mount('#app');

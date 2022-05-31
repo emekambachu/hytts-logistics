@@ -3,6 +3,7 @@
 namespace App\Http\Requests;
 
 use Illuminate\Contracts\Validation\Validator;
+use Illuminate\Validation\ValidationException;
 use Illuminate\Foundation\Http\FormRequest;
 
 class ReservationRequest extends FormRequest
@@ -14,7 +15,7 @@ class ReservationRequest extends FormRequest
      */
     public function authorize()
     {
-        return false;
+        return true;
     }
 
     /**
@@ -33,11 +34,39 @@ class ReservationRequest extends FormRequest
         ];
     }
 
+    public function messages()
+    {
+        return [
+            'email.required' => 'Email is required!',
+            'name.required' => 'Name is required!',
+            'description.required' => 'Description is required!',
+        ];
+    }
+
     protected function failedValidation(Validator $validator)
     {
-        return response()->json([
-            "success" => false,
-            "errors" => $validator->getMessageBag()->toArray()
-        ]);
+        if($this->wantsJson()){
+            $response = response()->json([
+                "success" => false,
+                "errors" => $validator->getMessageBag()->toArray()
+            ]);
+        }
+
+//        if($this->wantsJson()) {
+//            $response = response()->json([
+//                'success' => false,
+//                'message' => 'Ops! Some errors occurred',
+//                'errors' => $validator->errors()
+//            ]);
+//        }else{
+//            $response = redirect()
+//                ->route('guest.login')
+//                ->with('message', 'Ops! Some errors occurred')
+//                ->withErrors($validator);
+//        }
+
+        throw (new ValidationException($validator, $response))
+            ->errorBag($this->errorBag)
+            ->redirectTo($this->getRedirectUrl());
     }
 }
