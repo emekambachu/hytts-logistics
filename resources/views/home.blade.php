@@ -108,7 +108,7 @@
                 </div>
             </div>
             <div
-                class="control-nav dsn-load-animate p-absolute w-100 d-flex justify-content-end  dsn-container v-dark-head">
+                class="control-nav dsn-load-animate p-absolute w-100 d-flex justify-content-end dsn-container v-dark-head">
                 <div class="prev-container">
                     <div class="container-inner">
                         <div class="triangle"></div>
@@ -176,7 +176,7 @@
                                 <div class="box-awards-item has-border dsn-up">
                                     <h5 class="number background-section p-10">
                                         <span class="has-animate-number title">19</span>
-                                        <span class="sm-title-block">SUTISFIED <br> CUSTOMERS</span>
+                                        <span class="sm-title-block">SATISFIED <br> CUSTOMERS</span>
                                     </h5>
                                 </div>
                             </div>

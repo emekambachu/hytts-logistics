@@ -32,3 +32,7 @@ Route::get('/clients', static function () {
 Route::get('/reservation', static function () {
     return view('reservation');
 });
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

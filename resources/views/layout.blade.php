@@ -11,6 +11,13 @@
     <!--  Title -->
     <title>@yield('title') | Hytts Logistics Limited</title>
 
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+    <script>window.Laravel = {csrfToken: '{{ csrf_token() }}'}</script>
+
+    <!-- Scripts -->
+    <script src="{{ asset('js/app.js') }}" defer></script>
+
     <!-- Font Google -->
     <link rel="preload" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&amp;family=Poppins:wght@300;400;500;600;700&amp;display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&amp;family=Poppins:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"></noscript>
@@ -26,6 +33,7 @@
     <!-- custom styles (optional) -->
     <link href="{{ asset('/assets/css/plugins.css') }}" rel="stylesheet" />
     <link rel="stylesheet" href="{{ asset('/assets/css/style.css') }}">
+
 </head>
 
 <body class="v-dark dsn-line-style dsn-effect-scroll dsn-cursor-effect dsn-ajax">
@@ -158,9 +166,9 @@
 <!-- ========== End Menu ========== -->
 
 
-<main class="main-root">
+<main id="app" class="main-root">
 
-    <div id="dsn-scrollbar">
+  <div id="dsn-scrollbar">
         <div class="main-content">
 
         @yield('content')
@@ -203,69 +211,14 @@
   <div class="contact-btn">
       <div class="contact-btn-txt">Reservation</div>
   </div>
+
   <div class="contact-modal background-section">
       <div class="contact-container h-100 w-100  border-right">
           <div class="box-contact-inner section-padding ">
               <div class="row align-items-center">
+
                   <div class="col-lg-7">
-                      <div class="form-box">
-                          <div class="line line-top"></div>
-                          <div class="line line-bottom"></div>
-                          <div class="line line-left"></div>
-                          <div class="line line-right"></div>
-
-                          <div class="mb-30 d-flex text-left flex-column align-items-start">
-                              <p class="sub-heading line-shap line-shap-before mb-15">
-                                  <span class="line-bg-right">Stay connected</span>
-                              </p>
-                              <h2 class="section-title  title-cap">
-                                  Get in Touch
-                              </h2>
-                          </div>
-
-                          <form id="contact-form" class="form" method="post" action=""
-                                data-toggle="validator">
-                              <div class="messages"></div>
-                              <div class="input__wrap controls">
-                                  <div class="form-group">
-                                      <div class="entry-box">
-                                          <label>Your name *</label>
-                                          <input id="form_name" type="text" name="name"
-                                                 placeholder="Type your name" required="required"
-                                                 data-error="name is required." />
-                                      </div>
-                                      <div class="help-block with-errors"></div>
-                                  </div>
-
-                                  <div class="form-group">
-                                      <div class="entry-box">
-                                          <label>Your E-Mail *</label>
-                                          <input id="form_email" type="email" name="email"
-                                                 placeholder="Type your Email Address" required="required"
-                                                 data-error="Valid email is required." />
-                                      </div>
-                                      <div class="help-block with-errors"></div>
-                                  </div>
-
-                                  <div class="form-group">
-                                      <div class="entry-box">
-                                          <label>What's up?</label>
-                                          <textarea id="form_message" class="form-control" name="message"
-                                                    placeholder="Tell us about you and the world" required="required"
-                                                    data-error="Please,leave us a message."></textarea>
-                                      </div>
-                                      <div class="help-block with-errors"></div>
-                                  </div>
-
-                                  <div class="text-right">
-                                      <div class="image-zoom w-auto d-inline-block" data-dsn="parallax">
-                                          <input type="submit" value="Send Message"
-                                                 class="dsn-button background-main border-radius">
-                                      </div>
-                                  </div>
-                              </div>
-                          </form>
-                      </div>
+                      <reservation-form></reservation-form>
                   </div>
 
                   <div class="col-lg-5">
@@ -463,6 +416,10 @@
 <script src="{{ asset('/assets/js/plugins.min.js') }}"></script>
 <script src="{{ asset('/assets/js/dsn-grid.min.js') }}"></script>
 <script src="{{ asset('/assets/js/custom.js') }}"></script>
+
+<!--Vue.js-->
+{{--<script src="https://unpkg.com/vue@next"></script>--}}
+{{--<script src="{{ asset('vue.js') }}" type="text/javascript" defer></script>--}}
 
 </body>
 

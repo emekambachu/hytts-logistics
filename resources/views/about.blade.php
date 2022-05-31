@@ -17,7 +17,7 @@
                                  data-dsn-move="-70" data-dsn-duration="100%" data-dsn-opacity="1.2"
                                  data-dsn-responsive="tablet">
                                 <h2 class="section-title mb-30 dsn-text-shadow text-transform-upper">
-                                    Hello We are</h2>
+                                    Who we are</h2>
                             </div>
                             <h6 class="mt-80 pb-30 mb-30 border-bottom title-block">
                                 HYTTS Logistics Ltd is an exclusive travel company, offering luxurious holidays at unbeatable prices.
