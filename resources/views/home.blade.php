@@ -13,7 +13,7 @@
                     <div class="slide-inner h-100">
                         <div class="swiper-wrapper">
                             <div class="slide-item swiper-slide over-hidden">
-                                <div class="image-bg cover-bg w-100 h-100 " data-overlay="2"
+                                <div class="image-bg cover-bg w-100 h-100 " data-overlay="5"
                                      data-swiper-parallax="50%" data-swiper-parallax-scale="1.1">
                                     <img class="cover-bg-img"
                                          src="{{ asset('/images/slider/slider1.jpg') }}"
@@ -43,7 +43,7 @@
                             </div>
 
                             <div class="slide-item swiper-slide over-hidden">
-                                <div class="image-bg cover-bg w-100 h-100" data-overlay="3"
+                                <div class="image-bg cover-bg w-100 h-100" data-overlay="4"
                                      data-swiper-parallax="50%" data-swiper-parallax-scale="1.1">
                                     <img class="cover-bg-img"
                                          src="{{ asset('/images/slider/slider2.jpg') }}"
@@ -73,7 +73,7 @@
                             </div>
 
                             <div class="slide-item swiper-slide over-hidden">
-                                <div class="image-bg cover-bg w-100 h-100 " data-overlay="6"
+                                <div class="image-bg cover-bg w-100 h-100 " data-overlay="4"
                                      data-swiper-parallax="50%" data-swiper-parallax-scale="1.1">
                                     <img class="cover-bg-img" src="{{ asset('/images/slider/slider3.jpg') }}"
                                          data-dsn-src="{{ asset('/images/slider/slider3.jpg') }}" alt="">
