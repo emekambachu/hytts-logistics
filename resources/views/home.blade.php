@@ -16,8 +16,8 @@
                                 <div class="image-bg cover-bg w-100 h-100 " data-overlay="5"
                                      data-swiper-parallax="50%" data-swiper-parallax-scale="1.1">
                                     <img class="cover-bg-img"
-                                         src="{{ asset('/images/slider/slider1.jpg') }}"
-                                         data-dsn-src="{{ asset('/images/slider/slider1.jpg') }}" alt="">
+                                         src="{{ asset('/images/slider/slider2.jpg') }}"
+                                         data-dsn-src="{{ asset('/images/slider/slider2.jpg') }}" alt="">
                                 </div>
                                 <div class="slide-content p-absolute ">
                                     <div class="content p-relative">
@@ -46,36 +46,7 @@
                                 <div class="image-bg cover-bg w-100 h-100" data-overlay="4"
                                      data-swiper-parallax="50%" data-swiper-parallax-scale="1.1">
                                     <img class="cover-bg-img"
-                                         src="{{ asset('/images/slider/slider2.jpg') }}"
-                                         data-dsn-src="{{ asset('/images/slider/slider2.jpg') }}" alt="">
-                                </div>
-                                <div class="slide-content p-absolute  ">
-                                    <div class="content p-relative">
-                                        <div class="metas d-inline-block mb-20">
-                                            <a href="{{ url('/about') }}">
-                                                <span>About us</span>
-                                            </a>
-                                            <a href="{{ url('/reservation') }}">
-                                                <span>Reservation</span>
-                                            </a>
-                                        </div>
-                                        <div class="d-block"></div>
-                                        <h1 class="title user-no-selection d-inline-block ">
-                                            <a href="" class="effect-ajax"
-                                               data-dsn-ajax="slider">HYTTS LUXURY DESTINATIONS</a>
-                                        </h1>
-                                        <hr class="mt-20" />
-                                        <p class="max-w570 mt-20 description">
-                                            Where Is Your Next Adventure?</p>
-                                    </div>
-                                </div>
-
-                            </div>
-
-                            <div class="slide-item swiper-slide over-hidden">
-                                <div class="image-bg cover-bg w-100 h-100 " data-overlay="4"
-                                     data-swiper-parallax="50%" data-swiper-parallax-scale="1.1">
-                                    <img class="cover-bg-img" src="{{ asset('/images/slider/slider3.jpg') }}"
+                                         src="{{ asset('/images/slider/slider3.jpg') }}"
                                          data-dsn-src="{{ asset('/images/slider/slider3.jpg') }}" alt="">
                                 </div>
                                 <div class="slide-content p-absolute  ">
@@ -98,7 +69,9 @@
                                             Where Is Your Next Adventure?</p>
                                     </div>
                                 </div>
+
                             </div>
+
                         </div>
                     </div>
                 </div>
@@ -175,7 +148,7 @@
 
                                 <div class="box-awards-item has-border dsn-up">
                                     <h5 class="number background-section p-10">
-                                        <span class="has-animate-number title">19</span>
+                                        <span class="has-animate-number title">1500</span>
                                         <span class="sm-title-block">SATISFIED <br> CUSTOMERS</span>
                                     </h5>
                                 </div>

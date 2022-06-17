@@ -406,7 +406,7 @@
 <!-- ========== End social network ========== -->
 
 <!-- ========== paginate-right-page ========== -->
-<div class="dsn-paginate-right-page"></div>
+{{--<div class="dsn-paginate-right-page"></div>--}}
 
 <!-- ========== Line left & right with creative page ========== -->
 <div class="line-border-style w-100 h-100"></div>
