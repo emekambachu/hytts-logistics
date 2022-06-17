@@ -17,7 +17,7 @@
                 </h2>
                 <p class="sub-heading line-shap line-shap-before mb-15">
                     <span class="line-bg-right">
-                        We have tailored and catered for a wide range of individual and co coporate group travels as listed below and more.
+                        We have tailored and catered for a wide range of individual and co corporate  Clients as listed below and more.
                     </span>
                 </p>
 
