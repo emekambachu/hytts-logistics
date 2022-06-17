@@ -453,104 +453,128 @@
         </section>
         <!-- ========== End blog Section ========== -->
 
-        <!-- ========== End brand-client Section ========== -->
-        <section class="brand-client section-margin" data-dsn-animate="section"
-                 data-dsn-title="our clients">
-
-            <div class="container mb-70 d-flex text-center flex-column  align-items-center">
-                <p class="sub-heading line-shap line-shap-before mb-15">
-                            <span class="line-bg-right">
-                                Our clients
-                            </span>
-                </p>
-                <h2 class="section-title  title-cap">
-                    Your success, our <br />reputation
-                </h2>
-
+        <!-- ========== brand Section ========== -->
+        <div class="brand-client section-margin dsn-swiper"
+             data-dsn-option='{"slidesPerView":4,"spaceBetween":0,"centeredSlides":false,"autoplay":true }'
+             data-dsn-title="our clients">
+            <div class="container mb-70 d-flex text-left flex-column align-items-start">
+                <h2 class="section-title">Your successful, our reputation</h2>
             </div>
+
             <div class="container">
-                <div class="wrapper-client dsn-up">
-                    <div class="logo-box">
-                        <div class="logo-box-inner">
-                            <img src="{{ asset('/images/clients/1.png') }}"
-                                 data-dsn-src="{{ asset('/images/clients/1.png') }}" alt="">
+                <div class="wrapper-client">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+
+                            <div class="swiper-slide logo-box border-top dsn-up">
+                                <div class="logo-box-inner">
+                                    <img src="{{ asset('/images/airline/1.png') }}"
+                                         data-dsn-src="{{ asset('/images/airline/1.png') }}" alt="">
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide logo-box border-top dsn-up">
+                                <div class="logo-box-inner">
+                                    <img src="{{ asset('/images/airline/2.png') }}"
+                                         data-dsn-src="{{ asset('/images/airline/2.png') }}" alt="">
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide logo-box border-top dsn-up">
+                                <div class="logo-box-inner">
+                                    <img src="{{ asset('/images/airline/3.png') }}"
+                                         data-dsn-src="{{ asset('/images/airline/3.png') }}" alt="">
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide logo-box border-top dsn-up">
+                                <div class="logo-box-inner">
+                                    <img src="{{ asset('/images/airline/4.png') }}"
+                                         data-dsn-src="{{ asset('/images/airline/4.png') }}" alt="">
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide logo-box border-top dsn-up">
+                                <div class="logo-box-inner">
+                                    <img src="{{ asset('/images/airline/5.png') }}"
+                                         data-dsn-src="{{ asset('/images/airline/5.png') }}" alt="">
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide logo-box border-top dsn-up">
+                                <div class="logo-box-inner">
+                                    <img src="{{ asset('/images/airline/6.png') }}"
+                                         data-dsn-src="{{ asset('/images/airline/6.png') }}" alt="">
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide logo-box border-top dsn-up">
+                                <div class="logo-box-inner">
+                                    <img src="{{ asset('/images/airline/7.png') }}"
+                                         data-dsn-src="{{ asset('/images/airline/7.png') }}" alt="">
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide logo-box border-top dsn-up">
+                                <div class="logo-box-inner">
+                                    <img src="{{ asset('/images/airline/8.png') }}"
+                                         data-dsn-src="{{ asset('/images/airline/8.png') }}" alt="">
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide logo-box border-top dsn-up">
+                                <div class="logo-box-inner">
+                                    <img src="{{ asset('/images/airline/9.jpg') }}"
+                                         data-dsn-src="{{ asset('/images/airline/9.jpg') }}" alt="">
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide logo-box border-top dsn-up">
+                                <div class="logo-box-inner">
+                                    <img src="{{ asset('/images/airline/10.jpg') }}"
+                                         data-dsn-src="{{ asset('/images/airline/10.jpg') }}" alt="">
+                                </div>
+                            </div>
+
                         </div>
                     </div>
 
-                    <div class="logo-box">
-                        <div class="logo-box-inner">
-                            <img src="{{ asset('/images/clients/2.png') }}"
-                                 data-dsn-src="{{ asset('/images/clients/2.png') }}" alt="">
+                    <div class="dsn-pagination w-100 mt-30 dsn-container d-flex justify-content-between">
+                        <div class="swiper-next">
+                            <div class="next-container">
+                                <div class="container-inner">
+                                    <div class="triangle"></div>
+                                    <svg class="circle" xmlns="http://www.w3.org/2000/svg" width="24"
+                                         height="24" viewBox="0 0 24 24">
+                                        <g class="circle-wrap" fill="none" stroke-width="1"
+                                           stroke-linejoin="round" stroke-miterlimit="10">
+                                            <circle cx="12" cy="12" r="10.5"></circle>
+                                        </g>
+                                    </svg>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-
-                    <div class="logo-box">
-                        <div class="logo-box-inner">
-                            <img src="{{ asset('/images/clients/3.png') }}"
-                                 data-dsn-src="{{ asset('/images/clients/3.png') }}" alt="">
-                        </div>
-                    </div>
-
-                    <div class="logo-box">
-                        <div class="logo-box-inner">
-                            <img src="{{ asset('/images/clients/4.png') }}"
-                                 data-dsn-src="{{ asset('/images/clients/4.png') }}" alt="">
-                        </div>
-                    </div>
-
-                    <div class="logo-box">
-                        <div class="logo-box-inner">
-                            <img src="{{ asset('/images/clients/5.png') }}"
-                                 data-dsn-src="{{ asset('/images/clients/5.png') }}" alt="">
-                        </div>
-                    </div>
-
-                    <div class="logo-box">
-                        <div class="logo-box-inner">
-                            <img src="{{ asset('/images/clients/6.png') }}"
-                                 data-dsn-src="{{ asset('/images/clients/6.png') }}" alt="">
-                        </div>
-                    </div>
-
-                    <div class="logo-box">
-                        <div class="logo-box-inner">
-                            <img src="{{ asset('/images/clients/7.png') }}"
-                                 data-dsn-src="{{ asset('/images/clients/7.png') }}" alt="">
-                        </div>
-                    </div>
-
-                    <div class="logo-box">
-                        <div class="logo-box-inner">
-                            <img src="{{ asset('/images/clients/8.png') }}"
-                                 data-dsn-src="{{ asset('/images/clients/8.png') }}" alt="">
-                        </div>
-                    </div>
-
-                    <div class="logo-box">
-                        <div class="logo-box-inner">
-                            <img src="{{ asset('/images/clients/9.jpg') }}"
-                                 data-dsn-src="{{ asset('/images/clients/9.jpg') }}" alt="">
-                        </div>
-                    </div>
-
-                    <div class="logo-box">
-                        <div class="logo-box-inner">
-                            <img src="{{ asset('/images/clients/10.jpg') }}"
-                                 data-dsn-src="{{ asset('/images/clients/10.jpg') }}" alt="">
-                        </div>
-                    </div>
-
-                    <div class="logo-box">
-                        <div class="logo-box-inner">
-                            <img src="{{ asset('/images/clients/11.jpg') }}"
-                                 data-dsn-src="{{ asset('/images/clients/11.jpg') }}" alt="">
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-prev">
+                            <div class="prev-container">
+                                <div class="container-inner">
+                                    <div class="triangle"></div>
+                                    <svg class="circle" xmlns="http://www.w3.org/2000/svg"
+                                         viewBox="0 0 24 24">
+                                        <g class="circle-wrap" fill="none" stroke-width="1"
+                                           stroke-linejoin="round" stroke-miterlimit="10">
+                                            <circle cx="12" cy="12" r="10.5"></circle>
+                                        </g>
+                                    </svg>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
                 </div>
             </div>
-        </section>
-        <!-- ========== End brand-client Section ========== -->
+        </div>
+        <!-- ========== End brand Section Section ========== -->
 
         <!-- ==========  next page  ========== -->
         <section class="next-page p-relative section-padding border-top background-section">
@@ -560,9 +584,9 @@
                 <div class="c-wapp d-flex justify-content-between">
                     <div class="d-flex flex-column">
                         <p class="sub-heading line-shap line-shap-after ">
-                                        <span class="line-bg-left">
-                                            Book now
-                                        </span>
+                            <span class="line-bg-left">
+                                Book now
+                            </span>
                         </p>
                         <h2 class="section-title max-w750 mt-15">
                             Send us a reservation request and we will call you

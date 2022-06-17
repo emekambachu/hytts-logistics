@@ -12,92 +12,57 @@
                  data-dsn-title="our clients">
 
             <div class="container mb-70 d-flex text-center flex-column  align-items-center">
-                <p class="sub-heading line-shap line-shap-before mb-15">
-                            <span class="line-bg-right">
-                                Our clients
-                            </span>
-                </p>
                 <h2 class="section-title  title-cap">
-                    Your success, our <br />reputation
+                    Our Clients
                 </h2>
+                <p class="sub-heading line-shap line-shap-before mb-15">
+                    <span class="line-bg-right">
+                        We have tailored and catered for a wide range of individual and co coporate group travels as listed below and more.
+                    </span>
+                </p>
 
             </div>
             <div class="container">
                 <div class="wrapper-client dsn-up">
                     <div class="logo-box">
                         <div class="logo-box-inner">
-                            <img src="{{ asset('/images/clients/1.png') }}"
-                                 data-dsn-src="{{ asset('/images/clients/1.png') }}" alt="">
+                            <img src="{{ asset('/images/clients/1.jpg') }}"
+                                 data-dsn-src="{{ asset('/images/clients/1.jpg') }}" alt="">
                         </div>
                     </div>
 
                     <div class="logo-box">
                         <div class="logo-box-inner">
-                            <img src="{{ asset('/images/clients/2.png') }}"
-                                 data-dsn-src="{{ asset('/images/clients/2.png') }}" alt="">
+                            <img src="{{ asset('/images/clients/2.jpg') }}"
+                                 data-dsn-src="{{ asset('/images/clients/2.jpg') }}" alt="">
                         </div>
                     </div>
 
                     <div class="logo-box">
                         <div class="logo-box-inner">
-                            <img src="{{ asset('/images/clients/3.png') }}"
-                                 data-dsn-src="{{ asset('/images/clients/3.png') }}" alt="">
+                            <img src="{{ asset('/images/clients/3.jpg') }}"
+                                 data-dsn-src="{{ asset('/images/clients/3.jpg') }}" alt="">
                         </div>
                     </div>
 
                     <div class="logo-box">
                         <div class="logo-box-inner">
-                            <img src="{{ asset('/images/clients/4.png') }}"
-                                 data-dsn-src="{{ asset('/images/clients/4.png') }}" alt="">
+                            <img src="{{ asset('/images/clients/4.jpg') }}"
+                                 data-dsn-src="{{ asset('/images/clients/4.jpg') }}" alt="">
                         </div>
                     </div>
 
                     <div class="logo-box">
                         <div class="logo-box-inner">
-                            <img src="{{ asset('/images/clients/5.png') }}"
-                                 data-dsn-src="{{ asset('/images/clients/5.png') }}" alt="">
+                            <img src="{{ asset('/images/clients/5.jpg') }}"
+                                 data-dsn-src="{{ asset('/images/clients/5.jpg') }}" alt="">
                         </div>
                     </div>
 
                     <div class="logo-box">
                         <div class="logo-box-inner">
-                            <img src="{{ asset('/images/clients/6.png') }}"
-                                 data-dsn-src="{{ asset('/images/clients/6.png') }}" alt="">
-                        </div>
-                    </div>
-
-                    <div class="logo-box">
-                        <div class="logo-box-inner">
-                            <img src="{{ asset('/images/clients/7.png') }}"
-                                 data-dsn-src="{{ asset('/images/clients/7.png') }}" alt="">
-                        </div>
-                    </div>
-
-                    <div class="logo-box">
-                        <div class="logo-box-inner">
-                            <img src="{{ asset('/images/clients/8.png') }}"
-                                 data-dsn-src="{{ asset('/images/clients/8.png') }}" alt="">
-                        </div>
-                    </div>
-
-                    <div class="logo-box">
-                        <div class="logo-box-inner">
-                            <img src="{{ asset('/images/clients/9.jpg') }}"
-                                 data-dsn-src="{{ asset('/images/clients/9.jpg') }}" alt="">
-                        </div>
-                    </div>
-
-                    <div class="logo-box">
-                        <div class="logo-box-inner">
-                            <img src="{{ asset('/images/clients/10.jpg') }}"
-                                 data-dsn-src="{{ asset('/images/clients/10.jpg') }}" alt="">
-                        </div>
-                    </div>
-
-                    <div class="logo-box">
-                        <div class="logo-box-inner">
-                            <img src="{{ asset('/images/clients/11.jpg') }}"
-                                 data-dsn-src="{{ asset('/images/clients/11.jpg') }}" alt="">
+                            <img src="{{ asset('/images/clients/6.jpg') }}"
+                                 data-dsn-src="{{ asset('/images/clients/6.jpg') }}" alt="">
                         </div>
                     </div>
 
