@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\GithubDeploymentController;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -36,3 +38,8 @@ Route::get('/reservation', static function () {
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+//Github Deployment
+Route::post('/github/deploy', [GithubDeploymentController::class, 'deploy']);
+
+
