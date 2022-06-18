@@ -337,10 +337,11 @@
                                             <span class="mb-5">Lifestyle</span>
                                         </div>
                                         <h4 class="title-block mb-20">
-                                            <a href="#">Visa-free Countries for Nigerian Passport Holders</a>
+                                            <a href="{{ url('/blog/post1') }}">
+                                                Visa-free Countries for Nigerian Passport Holders</a>
                                         </h4>
                                         <p>No Visa, No Hassles, because you too can fly with your international passport, round trip ticket, proof of the reason for travel and sufficient funds. below is the list of countries to visit in this category which some are limited to the duration given upon entrance by the Immigration authorities.</p>
-                                        <a href="#" class="link-vist p-relative mt-20">
+                                        <a href="{{ url('/blog/post1') }}" class="link-vist p-relative mt-20">
                                             <span class="link-vist-text">Load More</span>
                                             <div class="link-vist-arrow">
                                                 <svg viewBox="0 0 80 80">
