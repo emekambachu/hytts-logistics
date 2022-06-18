@@ -141,14 +141,14 @@
                                 <div class="box-awards-item has-border dsn-up ">
                                     <h5 class="number background-section p-10">
                                         <span class="has-animate-number title">6</span>
-                                        <span class="sm-title-block">Business
-                                                        <br> partner</span>
+                                        <span class="sm-title-block">
+                                            Business<br> partner</span>
                                     </h5>
                                 </div>
 
                                 <div class="box-awards-item has-border dsn-up">
                                     <h5 class="number background-section p-10">
-                                        <span class="has-animate-number title">1500</span>
+                                        <span class="has-animate-number title">>1500</span>
                                         <span class="sm-title-block">SATISFIED <br> CUSTOMERS</span>
                                     </h5>
                                 </div>
